@@ -1,0 +1,6 @@
+// cin, cout 속도 개선
+
+cout.tie(NULL); or cin.tie(NULL);
+ios_base::sync_with_stdio(false);​
+
+// 대신 scanf, printf 사용 불가
