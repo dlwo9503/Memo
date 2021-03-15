@@ -1,0 +1,40 @@
+#include <vector> // 벡터 라이브러리
+
+vector<int> v; // 벡터 선언
+
+v.push_back(); // 값 넣기
+v.pop_back(); // 값 빼기
+
+v.clear(); // 벡터 초기화
+
+---------------------------------
+
+// 2차원 vector
+
+vector< vector <int> > v;
+vector<int> v2;
+v.push_back(v2); // 벡터안에 벡터를 넣음
+
+----------------------------------
+
+// vector + pair
+
+vector< pair<int, int> > v;
+
+v.push_back(make_pair(1, 2)); // 벡터안에 쌍으로 값을 넣어줌
+v.push_back(pair<int,int>(1,2)); // 위와 동일
+
+v[0].first // 첫번째 인자
+v[0].second // 두번째 인자
+
+------------------------------------
+
+// vector + tuple // pair는 쌍으로만 사용할 수 있는데 튜플을 사용시 3개이상 사용 가능
+
+vector< tuple<int, int, string> > v;
+
+v.push_back(make_tuple(1, 2, s));
+
+get<0>(v) = 1 // 첫번째 인자
+get<1>(v) = 2 // 두번째 인자
+get<2>(v) = s // 세번째 인자
