@@ -1,0 +1,6 @@
+// 최소, 최대값 찾는 함수
+#include <algorithm>
+
+*min_element(v.begin(), v.end());
+*max_element(v.begin(), v.end());
+ - *을 붙여야 값을 반환 (안붙이면 주소값)
