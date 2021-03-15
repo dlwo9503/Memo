@@ -22,4 +22,7 @@ onkeydown ="" // 키를 누를시
 class = .
 id = #
 
-class < id
+우선순위 : tag(span, div, h1 etc...) < class < id
+
+class는 그룹핑하는거임 (중복 가능)
+id는 식별하기위한거임 (중복 불가능)
