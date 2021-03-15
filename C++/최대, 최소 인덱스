@@ -1,0 +1,4 @@
+// 최대, 최소값의 인덱스 구하기
+
+int max_index = max_element(v.begin(),v.end()) - v.begin();
+int min_index = min_element(v.begin(),v.end()) - v.begin();
