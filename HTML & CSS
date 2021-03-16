@@ -26,3 +26,6 @@ id = #
 
 class는 그룹핑하는거임 (중복 가능)
 id는 식별하기위한거임 (중복 불가능)
+
+ document.querySelector('body').style.background = '색상'; // body태그 배경색 변경
+ document.querySelector('body').style.color = '색상'; // body태그 폰트 색상 
