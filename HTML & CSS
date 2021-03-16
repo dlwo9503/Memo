@@ -31,3 +31,8 @@ document.querySelector('body').style.background = '색상'; // body태그 배경
 document.querySelector('body').style.color = '색상'; // body태그 폰트 색상 
 
 this.value = '값'; // 자기자신의 태그 값을 가르킴
+
+document.querySelector('태그 이름') // 태그 이름과 같은 처음오는 태그를 가져옴
+document.querySelectorAll('태그 이름') // 태그 이름과 같은 태그를 모두 가져와서 리스트 형태로 표현됨
+
+console.log(); // 로그 확인
