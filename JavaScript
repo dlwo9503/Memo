@@ -1,1 +1,6 @@
 alert(내용) // 경고창 띄우기
+
+함수 생성시에 매개변수는 self
+  ex) function f(self){}
+함사 수용시에 매개변수는 this = value 값
+  ex) f(this);
