@@ -11,4 +11,11 @@ alert(내용) // 경고창 띄우기
 for (var key in coworkers) { // coworkers 객체의 키 값 사용하는 법
             document.write(key + '<br>'); // 인덱스의 이름을 출력
             document.write(coworkers[key] + '<br>'); // 인덱스으 값을 출력
-        }
+}
+
+라이브러리 : 소스코드 사용하는거
+vs
+프레임워크 : 정해진 틀에서 부품을 가져와서 조립하는거
+
+jQuery
+ - CDN : 따로 다운받지않고 서버에서 받아와서 사용가능하게 해줌
