@@ -1,0 +1,5 @@
+CDN : 따로 다운받지않고 서버에서 받아와서 사용가능하게 해주는 기능
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> // 구글 jQuery 사용
+
+$('a').css('color', color); // $는 제이쿼리 함수 이름, 모든 a 태그를 제이쿼리로 제어하겠다. css 는 color를 color이라는 매개변수를 사용하겠다.
