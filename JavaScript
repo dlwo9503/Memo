@@ -4,3 +4,6 @@ alert(내용) // 경고창 띄우기
   ex) function f(self){}
 함사 수용시에 매개변수는 this = value 값
   ex) f(this);
+
+배열은 대괄호
+객체는 중괄호
