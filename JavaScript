@@ -7,3 +7,8 @@ alert(내용) // 경고창 띄우기
 
 배열은 대괄호
 객체는 중괄호
+
+for (var key in coworkers) { // coworkers 객체의 키 값 사용하는 법
+            document.write(key + '<br>'); // 인덱스의 이름을 출력
+            document.write(coworkers[key] + '<br>'); // 인덱스으 값을 출력
+        }
