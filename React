@@ -1,1 +1,6 @@
 npx create-react-app 프로젝트명 // 터미널에 입력하면 -> 리엑트 프로젝트 생성
+npm start // 실행해보기
+
+useState를 수정할 때는 직접적으로 건들지말고 딥카피를 해서 이용해야한다.
+let [a, au] = useState([1, 2, 3]); // 이런 state를 이용하고싶으면
+var newArray = [...a]; // 이런식으로 ... 을 이용해서 딥카피를 하면 된다.
