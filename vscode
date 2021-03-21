@@ -69,4 +69,7 @@ control + ` : 터미널 켜기
             },
             "presentation": {
                 "clear": true
-   
+			}
+		}
+	]
+}
