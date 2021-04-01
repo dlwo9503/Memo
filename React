@@ -1,6 +1,18 @@
 npx create-react-app 프로젝트명 // 터미널에 입력하면 -> 리엑트 프로젝트 생성
-npm start // 실행해보기
+npm start // 프로젝트 실행
 
 useState를 수정할 때는 직접적으로 건들지말고 딥카피를 해서 이용해야한다.
 let [a, au] = useState([1, 2, 3]); // 이런 state를 이용하고싶으면
 var newArray = [...a]; // 이런식으로 ... 을 이용해서 딥카피를 하면 된다.
+
+import/export
+ - import : 특정한 라이브러리를 불러올 때 사용
+ - export : 내보내기 (다른 파일에서 사용할 수 있도록)
+
+jsx
+ - jsx 문법에서 2개이상 사용시 반드시 div와 같은 태그들로 감싸줘야 함
+ - 안하면 오류 뜸
+
+map
+ - map함수를 이용해서 반복문을 사용 가능
+ - map 사용 시 key값을 이용해 구문가능하게 만들어 줘야 함
