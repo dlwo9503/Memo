@@ -15,3 +15,5 @@ git.revert 4c003c(취소할 버전의 일련번호 앞 6자리) -> :wq (그대�
 git remote add origin https://github.com/dlwo9503/<레파지토리 제목>.git (한번마 하면 됨)
 git push --set-upstream origin master   ||   메뉴에서 push
 끝
+
++ => 체크 => 
