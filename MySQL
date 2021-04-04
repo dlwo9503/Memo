@@ -1,0 +1,53 @@
+사용법
+ - 터미널 => cd /usr/local/mysql/bin/ => ./mysql -uroot -p => 패스워드 입력 // MySQL Monitor 사용
+ - -h<서버 주소> // 호스트 사용
+ 
+CREATE DATABASE <이름>; // 데이터베이스 생성
+DROP DATABASE <이름>; // 데이터베이스 삭제
+
+SHOW DATABASES; // 데이터베이스 확인
+USE <이름>; // <이름> 데이터베이스를 사용하겠다
+
+CREATE TABLE <테이블명>( // 테이블 생성
+  <속성명> <데이터타입>(<사이즈>) [<NOT NULL or NULL> <AUTO_INCREMENT>] // [] => 옵션 지정, AUTO_~ 이거 해주면 id 값이 1씩 증가함, 생략가능
+  PRIMARY KEY(<속성명>) // 기본키 지정, 중복 제거
+  ...
+);
+DROP TABLE <테이블명>; // 테이블 삭제
+
+데이터 타입
+ - http://blog.naver.com/PostView.nhn?blogId=islove8587&logNo=221036036689&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=true&from=search
+
+DESC <테이블 이름>; // 테이블의 구조를 보여줌
+
+
+👍CRUD👍
+ - Create, Read, Update, Delete (생성, 읽기, 갱신, 삭제)
+//
+데이터 삽입
+ - INSERT INTO <테이블명> (컬럼명, 컬럼명, 컬럼명....) VALUES('값', '값', '값');
+ - NOW() // 이렇게 값으로 넣으면 현재시간이 출력됨
+
+테이블 확인
+ - SELECT * FROM <테이블명>; // <테이블명>에 있는 데이터 모두(*)를 출력
+ - SELECT <컬럼명> FROM <테이블명>; // <테이블명>에 있는 데이터중 <컬럼명>에 해당되는 것만 출력
+
+테이블 갱신
+ - UPDATE <테이블명> SET <컬럼명> = '<값>', <컬럼명> = '<값>'.... WHERE <컬럼명> = <값>;
+ - 이렇게하면 WHERE 조건에 충족되는 데이터들의 SET 이후로 쓴 컬럼,값 으로 갱신됨
+ 
+데이터 삭제
+ - DELETE FROM <테이블명> WHERE <컬럼명> = <값>;
+//
+자세한 내용은 구글 검색하면 잘 나옴
+
+
+컬럼명 변경
+ - ALTER TABLE `테이블명` CHANGE `기존컬럼명` `새컬럼명` 기존자료형 및 옵션
+컬럼 자료형 변경
+ - ALTER TABLE `테이블명` CHANGE `컬럼명` `컬럼명` 새자료형 및 옵션
+ 
+
+MySQL으 데이터를 확인하고 제어하는 방법
+ - 명령어 기반 : MySQL Monitor // 어디서든 사용 가능, 확인,제어 귀찮음
+ - GUI 기반 : MySQL Workbench // 확인,제어하기 편함
