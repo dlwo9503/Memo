@@ -11,3 +11,6 @@ nodemailer
 
 mysql
  - https://www.npmjs.com/package/mysql // 사이트
+
+Express : 백엔드, node.js환경에서 웹서버를 여는걸 쉽게해주는 프레임워크
+mongoose : 백엔드, node.js 웹서버에서 몽고DB를 간편하게 사용할수있게해주는 프레임워크
