@@ -17,3 +17,9 @@ git push --set-upstream origin master   ||   메뉴에서 push
 끝
 
 + => 체크 => 
+
+* 전체적인 공간 : 워킹 디렉토리 -> 스테이징 에어리아 -> 깃 저장소(로컬) -> 깃 저장소(원격)
+* 전체적인 흐름 : init -> add -> commit -> push (깃헙에 적혀있는대로 입력하면 됨)
+
+Git vs Github
+ - 깃은 툴이고, 깃헙은 클라우드, 호스팅 서비스라고 생각하면 됨
