@@ -1,0 +1,17 @@
+#include <algorithm>
+
+sort(v2.begin(), v2.end()); // 정렬 (오름차순)
+sort(v2.begin(), v2.end(), greater<int>()); // 정렬 (내림차순)
+
+*min_element(begin, end); // 최소값 구하기
+*max_element(begin, end); // 최대값 구하기
+
+count(begin, end, value) // (begin, end)에 포함되어 있는 원소 중에서 value의 개수를 찾는다
+count_if(begin, end, p) // (begin, end)에 포함되어 있는 원소 중에서 조건 p에 해당하는 것의 개수를 찾음
+
+find(begin, end, value) // (begin, end)에 포함되어 있는 원소 중에서 value의 iterator
+
+find_if(begin, end, p) // (begin, end)에 포함되어 있는 원소 중에서 조건 p에 해당하는 것의 iterator
+
+
+https://hibee.tistory.com/48 // 참조
