@@ -3,23 +3,33 @@ FE
  - CSS (Media query, Meterial UI)
  - JavaScript (jQuery, ES6, DOM, JSON)
  - React
+ * Vue.js
 
 BE
- - node.js (Express, NPM, Yarn)
+ - node.js (Express, NPM, Yarn, Mongoose)
  - RESTful API
  - MySQL (Monitor, Workbench)
- - MongoDB / Mongoose
+ - Mongo DB
+ * PHP
+ * Maria DB
 
 App
  - React Native (Expo CLI, RN CLI)
  - Swift / Swift UI
  - Android Studio
+ * Objective-C
+ * Kotlin
+ * Flutter
+ 
  
 Tool
  - Git / Github
 
-C / C++
-JAVA
-Python
+언어
+ - C / C++
+ - JAVA
+ - Python
 
 TensorFlow (Python)
+
+* : 사용해볼것
