@@ -1,0 +1,14 @@
+cout.precision(자리수);
+
+ex)
+cout.precision(15);
+cout << a;
+//소수점 고정할려면
+cout << fixed;
+cout.precision(소수점 자리수);
+
+ex)
+cout << fixed;
+cout.precision(15);
+cout << a;
+cout.unself(ios::fixed); // 소수점 고정 해제
