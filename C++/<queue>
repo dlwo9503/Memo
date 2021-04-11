@@ -1,0 +1,13 @@
+#include <queue>
+
+queue<int> q; // 큐 생성
+
+q.push(값); // 큐에 값 추가
+q.pop(); // 큐에 있는 원소(제일 앞) 삭제
+
+q.front(); // 큐 제일 앞에있는 원소 반환
+q.back(); // 큐 제일 뒤에있는 원소 반환
+
+q.empty(); // 큐가 비어있으면 true, 아니면 false 반환
+
+q.size(); // 큐 사이즈 반환
